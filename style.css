@@ -6,7 +6,7 @@
 
     --clr-neutral-500: hsl(233, 8%, 62%);
     --clr-neutral-400: hsl(0, 0%, 100%);
-    --clr-neutral-300: hsl(220, 16%, 96%);
+    --clr-neutral-300: hsl(223, 18%, 96%);
     --clr-neutral-200: hsl(0, 0%, 98%);
 
     --clr-linear: linear-gradient(var(--clr-primary-400), var(--clr-primary-500));
@@ -131,6 +131,14 @@ textarea:not([rows]) {
     background-color: var(--clr-neutral-500);
 }
 
+.bg-neutral-300 {
+    background-color: var(--clr-neutral-300);
+}
+
+.bg-neutral-200 {
+    background-color: var(--clr-neutral-200);
+}
+
 .bg-linear {
     background-image: var(--clr-linear);
 }
@@ -211,14 +219,82 @@ body {
     color: var(--clr-neutral-500);
 }
 
+/* Intro section */
 .primary-heading {
     margin-bottom: 16px;
 }
 
 .intro-text {
     margin-bottom: 32px;
+    line-height: 25px;
 }
 
 .intro-container {
     padding-bottom: 88px;
+}
+
+/* Why section */
+.why-container {
+    padding-top: 64px;
+    padding-bottom: 8px;
+}
+
+.why-heading-container {
+    padding-bottom: 56px;
+}
+
+.why-logo {
+    margin: auto;
+    padding-bottom: 24px;
+}
+
+.secondary-heading {
+    padding-bottom: 14px;
+}
+
+.why-text {
+    line-height: 25px;
+}
+
+.why-list {
+    padding-bottom: 32px;
+}
+
+.list-heading {
+    line-height: 28px;
+    padding-bottom: 16px;
+}
+
+/* Latest section */
+.latest-container {
+    padding-top: 88px;
+    padding-bottom: 88px;
+}
+
+.latest-card-container {
+    margin-bottom: 24px;
+}
+
+.latest-card-text-container {
+    text-align: left;
+    padding: 25px 31px 24px 31px;
+    background-color: white;
+}
+
+.latest-heading {
+    padding-bottom: 31px;
+}
+
+.latest-card-heading {
+    line-height: 20px;
+    padding-bottom: 8px;
+}
+
+.latest-author {
+    line-height: 18px;
+    padding-bottom: 8px;
+}
+
+.latest-text {
+    line-height: 18px;
 }
